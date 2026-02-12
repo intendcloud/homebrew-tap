@@ -6,7 +6,7 @@ Homebrew formulae for IntendCloud CLI tools.
 
 ```bash
 # Add the tap
-brew tap therajushahi/tap
+brew tap intendcloud/tap
 
 # Install intendcloud CLI
 brew install intend
@@ -28,18 +28,24 @@ intend --help
 Compliance scanning CLI for Terraform and cloud infrastructure.
 
 **Features:**
-- CIS AWS v3.0.0 compliance scanning (free)
+- CIS AWS, Azure, GCP compliance scanning (free)
 - Checkov integration for IaC scanning
 - Prowler integration for runtime scanning (coming soon)
-- JSON/HTML/PDF report generation
-- Support for SOC2, ISO 27001, and more (paid tiers)
+- JSON/HTML/CSV report generation
+- Enterprise frameworks: SOC2, ISO 27001, PCI-DSS, NIST, DORA (paid)
 
-**Documentation:** https://github.com/therajushahi/intendcloud-platform
+**Documentation:** https://github.com/intendcloud/intend
+
+## Enterprise Platform
+
+For production-ready Terraform modules, DevSecOps tooling, and enterprise compliance frameworks:
+- **Website:** https://intendcloud.com
+- **Platform:** https://github.com/intendcloud/intendcloud-platform (private, invite-only)
 
 ## Support
 
-- **Issues:** https://github.com/therajushahi/intendcloud-platform/issues
-- **Discussions:** https://github.com/therajushahi/intendcloud-platform/discussions
+- **Free CLI Issues:** https://github.com/intendcloud/intend/issues
+- **Platform Support:** support@intendcloud.com
 
 ## License
 
